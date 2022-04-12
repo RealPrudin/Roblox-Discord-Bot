@@ -1,5 +1,5 @@
 const {Client, MessageAttachment} = require('discord.js');
-const bot = new Client();
+const bot = new Client({ intents: ['GUILD_MESSAGES', 'GUILD_MEMBERS'] });
 
 const token = "";
 
